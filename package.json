@@ -7,22 +7,9 @@
   "private": true,
   "scripts": {
     "dev": "bun run src/index.ts",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
     "type-check": "tsc --noEmit",
     "build": "tsc"
   },
-  "keywords": [
-    "shipping",
-    "carrier",
-    "ups",
-    "rating",
-    "api",
-    "integration"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "axios": "^1.13.5",
     "zod": "^3.22.4"
